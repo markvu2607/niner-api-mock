@@ -1,0 +1,12 @@
+version: "3"
+
+tasks:
+  ### Local
+  local:up:
+    cmds:
+      - npm run dev
+
+  ### Manage lib
+  lib:i: # Install libs
+    cmds:
+      - npm install
